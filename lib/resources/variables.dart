@@ -1,5 +1,5 @@
 import 'package:rick_and_morty/data/character.dart';
-import 'package:rick_and_morty/recources/images.dart';
+import 'package:rick_and_morty/resources/images.dart';
 
 class Variables {
   static final characters = [

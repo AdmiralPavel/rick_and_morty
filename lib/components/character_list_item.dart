@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:rick_and_morty/data/character.dart';
 import 'package:rick_and_morty/theme/text_theme.dart';
 
-class CharacterItem extends StatelessWidget {
+class CharacterListItem extends StatelessWidget {
   final Character character;
 
-  CharacterItem({required this.character});
+  CharacterListItem({required this.character});
 
   @override
   Widget build(BuildContext context) {
