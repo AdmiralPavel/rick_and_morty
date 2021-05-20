@@ -5,6 +5,7 @@ class CustomTextTheme {
   static final nameTextStyle = TextStyle(
     color: Colors.black,
     fontSize: 16,
+
     fontWeight: FontWeight.w500,
   );
   static final descriptionTextStyle = TextStyle(

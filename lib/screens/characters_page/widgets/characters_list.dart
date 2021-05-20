@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:rick_and_morty/components/character_list_item.dart';
+
+import '../../../data/character.dart';
+import 'character_list_item.dart';
 
 class CharactersList extends StatelessWidget {
-  final characters;
+  final List<Character> characters;
   CharactersList({required this.characters});
 
   @override

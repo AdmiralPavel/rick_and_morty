@@ -37,7 +37,7 @@ class CharacterListItem extends StatelessWidget {
                 style: CustomTextTheme.nameTextStyle,
               ),
               Text(
-                character.description,
+                character.race + ', ' + character.sex,
                 style: CustomTextTheme.descriptionTextStyle,
               ),
             ],
